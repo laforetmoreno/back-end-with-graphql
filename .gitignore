@@ -1,0 +1,18 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+.env
+
+# misc
+*.log
+.DS_Store
+yarn.lock
+.eslintcache
+.idea
