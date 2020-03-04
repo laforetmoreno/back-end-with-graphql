@@ -1,13 +1,5 @@
 import Comment from './CommentsModels';
 
-export const saveComment = async (_, { input }) => {
-  const comment = await Comment.create(input);
+export const saveComment = async (_, { input }) => Comment.create(input);
 
-  return comment;
-};
-
-export const getComments = async () => {
-  const comments = await Comment.find();
-
-  return comments;
-};
+export const getComments = async () => Comment.find();
